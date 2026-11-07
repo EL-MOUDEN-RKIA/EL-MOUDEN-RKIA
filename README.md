@@ -19,14 +19,14 @@ public class SoftwareEngineer {
 
     String name     = "R'kia El Mouden";
     String role     = "Software Engineering Student";
-    String school   = "ENSA Agadir — 2nd year Ingénieur";
+    String school   = "ENSA Agadir — 3rd year (final year) Ingénieur";
     String location = "Agadir, Morocco 🇲🇦";
     String focus    = "Full-Stack · Spring · Angular";
-    String status   = "Open to internship opportunities";
+    String status   = "Open to end-of-studies internship opportunities";
 
     String[] stack  = {
-        "Spring Boot", "Angular",
-        "React", "Node.js", "Docker"
+        "Spring Boot", "Angular", "REACT", "SQL",
+        " REST APIs", "Docker"
     };
 
     void sayHi() {
@@ -42,8 +42,9 @@ public class SoftwareEngineer {
 
 ## $ cat about_me.txt
 
-- 🎓 2nd year **Engineering cycle** in Software & Application Development @ ENSA Agadir
-- 💼 Experience building a full **POS system** (React · Node.js · MySQL) during my internship @ Ejahiz
+- 🎓 Final-year **Engineering cycle** student in Software & Application Development @ ENSA Agadir
+- 💼 Software Engineer Intern @ **Norsys Afrique** — built **DocFlow**, a medical practice management app (Spring Boot · Angular · PostgreSQL · Keycloak)
+- 💼 Full Stack Developer Intern @ **Ejahiz** — built a full **POS system** (React · Node.js · MySQL)
 - 🚀 Currently diving deeper into **Spring Boot**, **Angular**, and **microservices architecture**
 - 🏆 **Oracle Certified Professional (OCP) Java SE 17**
 - 🌱 Always learning — currently exploring **Docker**, **Kubernetes** and **CI/CD pipelines**
@@ -65,16 +66,21 @@ public class SoftwareEngineer {
 
 ### ⚡ Backend & Languages
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 ![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
 ![Express.js](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge&logo=express&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
+
+### 🔐 Security
+![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white)
+![Keycloak](https://img.shields.io/badge/Keycloak-4D4D4D?style=for-the-badge&logo=keycloak&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
 
 ### 🗄️ Databases
 ![MySQL](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Liquibase](https://img.shields.io/badge/Liquibase-2962FF?style=for-the-badge&logo=liquibase&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
 
 ### ☁️ DevOps & Cloud
@@ -87,12 +93,26 @@ public class SoftwareEngineer {
 
 ### 🛠️ Tools & Testing
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+![JUnit](https://img.shields.io/badge/JUnit-25A162?style=for-the-badge&logo=junit5&logoColor=white)
+![Mockito](https://img.shields.io/badge/Mockito-78A641?style=for-the-badge)
 ![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ_IDEA-000000?style=for-the-badge&logo=intellij-idea&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
 ---
 
 ## $ git log --oneline ./projects/
+
+### 🩺 DocFlow — Norsys Afrique (Internship)
+> Medical practice management web application
+
+- Spring Boot + Angular + PostgreSQL (Liquibase) + Keycloak
+- 🧑‍⚕️ Gestion des patients et des rendez-vous
+- 🪑 Gestion de la salle d'attente
+- 💳 Gestion de la facturation
+- 🔐 Authentification et autorisation sécurisées avec Keycloak
+- 🔄 Travail en environnement Agile/Scrum
+
+---
 
 ### 🛒 POS System — Ejahiz (Internship)
 > Full-stack Point of Sale web application
